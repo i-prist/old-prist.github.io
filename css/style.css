@@ -1,4 +1,41 @@
 //font-family: 'Open Sans', sans-serif;
+html {
+	width: 1600px;
+}
 
-body {
+header {
+	width: 1660px;
+	height: 643px;
+	background-image: url(pic/top.jpg);
+}
+.logo {
+	margin-top: 50px;
+}
+
+ul.menu li {
+	display: inline;
+}
+a {
+	text-decoration: none;
+}
+
+.logo {
+	float: left;
+}
+.menu {
+	float: right;
+  font-size: 18px;
+  font-family: "Aller";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  top: 84.7px;
+ 
+
+}
+
+.col1, .logo {
+	margin-left: 321px;
+}
+.menu, .social {
+	margin-right: 321px;
 }
