@@ -24,6 +24,9 @@ a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 }
+.menu li > a:hover {
+	color: rgb(166, 173, 176);
+}
 .logo {
 	float: left;
 }
@@ -176,4 +179,86 @@ hr {
 	width: 960px;
 	margin-right: auto; 
 	margin-left: auto;
+}
+.comments {
+	float: left;
+	width: 430px;
+	height: 350px;
+}
+.pers {
+	height: 120px;
+	margin-bottom: 30px;
+
+}
+.pers > img {
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 19px;
+}
+.pers > h4 {
+	font-size: 21px;
+  	font-family: "Open Sans";
+  	color: rgb(78, 91, 97);
+  	font-weight: bold;
+  	padding-top: 7px;
+  	margin: 0 0 5px 0;
+  }
+.pers > p {
+	font-size: 16px;
+  	font-family: "OpenSans";
+ 	color: rgb(78, 91, 97);
+ 	margin: 0;
+}
+.contact {
+	float: right;
+	width: 480px;
+	height: 350px;
+	margin: 0;
+}
+.contact > h3 {
+	font-size: 36px;
+  	font-family: "Aller";
+  	color: rgb(78, 91, 97);
+  	font-weight: bold;
+  	margin: 0;
+}
+.contact > p {
+	font-size: 19px;
+ 	font-family: "OpenSans";
+  	color: rgb(78, 91, 97);
+  	padding-top: 18px;
+  	margin: 0;
+}
+footer {
+	width: 960px;
+	margin-right: auto; 
+	margin-left: auto;
+}
+footer > ul li {
+	display: inline;
+
+}
+.nav {
+	float: left;
+	padding-left: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.social {
+	float: right;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.nav a {
+	font-size: 16px;
+  	font-family: "Aller";
+  	color: rgb(166, 173, 176);
+}
+.social a {
+	font-size: 16px;
+  	font-family: "Aller";
+  	color: rgb(166, 173, 176);
+}
+.tap > a:hover {
+	color: rgb(78, 91, 97);
 }
