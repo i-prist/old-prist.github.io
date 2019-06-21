@@ -85,3 +85,32 @@ a {
  	display: inline-block;
  	margin-right: 17px;
 }
+
+article {
+	background-image: url(../pic/about.jpg);
+	height: 458px;
+	width: 1600px;
+}
+.slider {
+	float: right;
+	width: 590px;
+	margin-right: 320px;
+	margin-top: 114px;
+}
+.about > h3 {
+	font-size: 36px;
+	font-family: "Aller";
+ 	color: rgb(78, 91, 97);
+ 	font-weight: bold;
+ 	margin-bottom: 0;
+}
+.about > p {
+	font-size: 19px;
+  	font-family: "OpenSans", sans-serif;
+  	color: rgb(78, 91, 97);
+  	margin: 15px 0 0 0;
+}
+
+hr {
+	margin: 0
+}

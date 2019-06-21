@@ -8,3 +8,11 @@
 	src: url(../fonts/Aller_Lt.ttf) format("truetype");
 	font-weight: 900;
 }
+@font-face {
+	font-family: "Open Sans Light";
+	src: url(../fonts/Open_Sans_lt.ttf) format("truetype");
+}
+@font-face {
+	font-family: "OpenSans";
+	src: url(../fonts/OpenSans_Rg.ttf) format("truetype");
+}
