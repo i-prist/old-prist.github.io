@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Aller";
+	src: url(../fonts/Aller_Rg.ttf) format("truetype");
+
+}
+@font-face {
+	font-family: "Aller Light";
+	src: url(../fonts/Aller_Lt.ttf) format("truetype");
+	font-weight: 900;
+}
