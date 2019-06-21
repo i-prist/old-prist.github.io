@@ -11,8 +11,9 @@ header {
 }
 
 .container {
-	margin-left: 320px;
-	margin-right: 320px;
+	width: 960px;
+	margin-right: auto; 
+	margin-left: auto;
 	padding-top: 50px;
 }
 ul.menu li {
@@ -148,6 +149,7 @@ hr {
 	background-image: url(../pic/macro.jpg);
 	width: 1600px;
 	height: 500px;
+	margin-bottom: 70px;
 }
 .about-macro {
 	margin-left: 320px;
@@ -170,4 +172,8 @@ hr {
  	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
  	margin: 0;
 } 
-
+.ender {
+	width: 960px;
+	margin-right: auto; 
+	margin-left: auto;
+}
