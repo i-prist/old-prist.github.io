@@ -7,8 +7,9 @@ html, body {
 header {
 	min-height: 643px;
 	background-image: url(../pic/top.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-
 .container {
 	width: 960px;
 	margin-right: auto; 
@@ -41,10 +42,10 @@ a {
  	color: rgb(255, 255, 255);
  	line-height: 3.2;
  }
-.col1 {
+.column {
 	width: 500px;
 }
-.col1 > h1 {
+.column > h1 {
 	color: rgb(255, 255, 255);
 	font-size: 52px;
   	font-family: "Aller";
@@ -52,14 +53,14 @@ a {
   	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
   	margin: 40px 0 10px -3px;
 }
-.col1 > h2 {
+.column > h2 {
 	color: rgb(255, 255, 255);
 	font-size: 37px;
 	font-family: "Aller Light";
 	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
 	margin: 0 0 7px 0;
 }
-.col1 >p {
+.column >p {
 	font-size: 21px;
  	font-family: "Open Sans Light";
  	color: rgb(255, 255, 255);
@@ -101,9 +102,6 @@ a {
 }
 .playmarket {
 	background-image: url(../pic/google.png);
-}
-article {
-	height: 458px;
 }
 .slider {
 	float: right;
@@ -196,6 +194,8 @@ hr {
 	background-image: url(../pic/macro.jpg);
 	min-height: 500px;
 	margin-bottom: 70px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .about-macro {
 	width: 700px;
