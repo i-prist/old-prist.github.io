@@ -209,6 +209,7 @@ hr {
  	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
  	padding-top: 55px;
  	margin-bottom: 6px;
+ 	margin-top: 0;
 }
 .about-macro > h2 {
 	font-size: 37px;
