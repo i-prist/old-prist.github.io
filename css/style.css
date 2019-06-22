@@ -5,7 +5,6 @@ html, body {
 	margin: 0;
 }
 header {
-	width: 1600px;
 	height: 643px;
 	background-image: url(../pic/top.jpg);
 }
@@ -64,6 +63,10 @@ a {
  	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
  	margin: 0;
 }
+.iphones {
+	float: right;
+	margin-top: 42.5px;
+}
 .clearfix::after {
   content: "";
   display: table;
@@ -92,15 +95,16 @@ a {
  	margin-right: 17px;
 }
 article {
-	background-image: url(../pic/about.jpg);
 	height: 458px;
-	width: 1600px;
 }
 .slider {
 	float: right;
 	width: 590px;
-	margin-right: 320px;
 	margin-top: 114px;
+}
+.iphone5s {
+	float: left;
+	margin-top: 88px;
 }
 .about > h3 {
 	font-size: 36px;
@@ -178,7 +182,6 @@ hr {
 }
 .macro {
 	background-image: url(../pic/macro.jpg);
-	width: 1600px;
 	height: 500px;
 	margin-bottom: 70px;
 }
