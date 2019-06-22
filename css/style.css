@@ -62,7 +62,7 @@ a {
 }
 .column > p {
 	font-size: 21px;
- 	font-family: "Open Sans Light";
+ 	font-family: "Open Sans Light", sans-serif;
  	color: rgb(255, 255, 255);
  	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.08);
  	margin: 0;
