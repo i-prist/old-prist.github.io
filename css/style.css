@@ -163,8 +163,9 @@ hr {
     font-size: 16px;
  	font-family: "Aller";
  	color: rgb(166, 173, 176);
- 	margin-top: 71px;
- 	margin-bottom: 71px;
+ 	padding-top: 71px;
+ 	padding-bottom: 40px;
+ 	margin-bottom: 0;
 }
 .switch {
 	display: block;
