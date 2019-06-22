@@ -249,7 +249,8 @@ hr {
 .contact {
 	float: right;
 	width: 480px;
-	min-height: 350px;
+	min-height: 250px;
+	padding-bottom: 50px;
 	margin: 0;
 }
 .contact > h3 {
@@ -265,6 +266,7 @@ hr {
   	color: rgb(78, 91, 97);
   	padding-top: 18px;
   	margin: 0;
+  	padding-bottom: 20px;
 }
 .container > .nav li {
 	display: inline;
