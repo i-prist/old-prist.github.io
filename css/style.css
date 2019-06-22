@@ -5,7 +5,7 @@ html, body {
 	margin: 0;
 }
 header {
-	height: 643px;
+	min-height: 643px;
 	background-image: url(../pic/top.jpg);
 }
 
@@ -25,11 +25,14 @@ a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 }
-.menu li > a:hover {
-	color: rgb(166, 173, 176);
-}
 .logo {
 	float: left;
+	width: 90px;
+	height: 91px;
+	background-image: url(../pic/logo.png);
+}
+.menu li > a:hover {
+	color: rgb(166, 173, 176);
 }
 .menu {
 	float: right;
@@ -88,11 +91,16 @@ a {
 }
 .buttons {
 	border-radius: 3px;
-  	background-color: rgb(23, 23, 23);
  	width: 195px;
  	height: 67px;
  	display: inline-block;
  	margin-right: 17px;
+}
+.appstore {
+	background-image: url(../pic/apple.png);
+}
+.playmarket {
+	background-image: url(../pic/google.png);
 }
 article {
 	height: 458px;
@@ -127,6 +135,7 @@ article {
     font-size: 16px;
  	font-family: "Aller";
  	color: rgb(166, 173, 176);
+ 	padding-bottom: 
 }
 .elip {
 	display: block;
@@ -144,11 +153,12 @@ article {
 }
 .elip:hover {
 	opacity: 1;
+	cursor: pointer;
 }
 hr {
 	margin: 0
 }
-.slider2 { 
+.mega-slider { 
 	width: 360px;
 	margin-left: auto;
     margin-right: auto;
@@ -158,37 +168,37 @@ hr {
  	margin-top: 71px;
  	margin-bottom: 71px;
 }
-.uno, .dos, .tres {
+.switch {
 	display: block;
 	float: left;
 	width: 120px;
 	height: 52px;
 	margin: 0;
 	border: rgb(166, 173, 176) solid 1px;
-	border-radius: 3px;
 	text-align: center;
 }
-.uno {
+.switch:first-child {
 	color: rgb(255, 255, 255);
 	background: rgb(166, 173, 176);
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
-.tres:hover {
-	color: rgb(255, 255, 255);
-	background: rgb(166, 173, 176);
+.switch:last-child {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
-.dos:hover {
+.switch:hover {
 	color: rgb(255, 255, 255);
 	background: rgb(166, 173, 176);
+	cursor: pointer;
 }
 .macro {
 	background-image: url(../pic/macro.jpg);
-	height: 500px;
+	min-height: 500px;
 	margin-bottom: 70px;
 }
 .about-macro {
-	margin-left: 320px;
 	width: 700px;
-	height: 450px;
 }
 .about-macro > h1 {
 	font-size: 52px;
@@ -209,10 +219,9 @@ hr {
 .comments {
 	float: left;
 	width: 430px;
-	height: 350px;
 }
 .pers {
-	height: 120px;
+	min-height: 120px;
 	margin-bottom: 30px;
 
 }
@@ -238,7 +247,7 @@ hr {
 .contact {
 	float: right;
 	width: 480px;
-	height: 350px;
+	min-height: 350px;
 	margin: 0;
 }
 .contact > h3 {
