@@ -4,13 +4,14 @@
 	<title>Photography app</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <body>
-	<header>
+	<header id="#header">
 		<div class="container">
 			<nav class="clearfix">
-				<a class="logo" href=""></a>
+				<a class="logo" href="/"></a>
 				<ul class="menu">
-					<li><a href="">HOME</a></li>
+					<li><a href="#header">HOME</a></li>
 					<li><a href="#about">ABOUT</a></li>
 					<li><a href="#features">FEATURES</a></li>
 					<li><a href="#contact">CONTACT</a></li>
@@ -105,5 +106,22 @@
 			</ul>
 		</div>
 	</footer>
+	<script>
+		$(document).ready(function(){
+		    $("nav").on("click","a", function (event) {
+		        //отменяем стандартную обработку нажатия по ссылке
+		        event.preventDefault();
+
+		        //забираем идентификатор бока с атрибута href
+		        var id  = $(this).attr('href'),
+
+		        //узнаем высоту от начала страницы до блока на который ссылается якорь
+		            top = $(id).offset().top;
+		        
+		        //анимируем переход на расстояние - top за 1500 мс
+		        $('body,html').animate({scrollTop: top}, 1200);
+		    });
+		});
+	</script>
 </body>
 </html>
